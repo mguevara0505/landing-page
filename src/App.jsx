@@ -1,11 +1,3 @@
-{
-  /* Sección de proyectos */
-}
-<div className="projects-section">
-  <h2 className="projects-title">Mis proyectos</h2>
-  <div className="projects-underline"></div>
-</div>;
-// import { useState } from 'react'
 import { useRef, useState } from "react";
 import "./App.css";
 
@@ -30,7 +22,7 @@ function App() {
   return (
     <div className="app-container">
       <nav className="navbar">
-        <div className="navbar-title">Mario Guevara</div>
+        <div className="navbar-title">Ing. Mario Guevara</div>
         {!menuOpen && (
           <button
             className="hamburger-btn"
@@ -84,6 +76,7 @@ function App() {
           Desarrollador full-stack, web y aplicaciones
         </h1>
         <p className="hero-subtitle">
+          Ingeniero en computación egresado de la Universidad José Antonio Páez.
           Especialmente interesado en los distintos métodos de desarrollo.
         </p>
         <div className="hero-buttons">
@@ -278,6 +271,14 @@ function App() {
               />
               <div className="skill-label">GraphQL</div>
             </div>
+            <div className="skill-card">
+              <img
+                src="/images/supabase-logo.png"
+                alt="Supabase"
+                className="skill-img"
+              />
+              <div className="skill-label">Supabase</div>
+            </div>
           </div>
         </div>
         {/* Sección de proyectos */}
@@ -396,8 +397,9 @@ function App() {
               </a>
             </div>
           </div>
-          {/* Sección de contacto */}
-          <div className="contact-section" ref={contactoRef}>
+        </div>
+        {/* Sección de contacto */}
+        <div className="contact-section" ref={contactoRef}>
             <h2 className="contact-title">Contacto</h2>
             <div className="contact-underline"></div>
             <p className="contact-text">
@@ -469,7 +471,6 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
       </main>
       <footer className="footer">
         <div className="footer-nav">
@@ -500,7 +501,7 @@ function App() {
         </div>
         <div className="footer-divider"></div>
         <div className="footer-copy">
-          © 2025 Mario Guevara. Todos los derechos reservados.
+          © 2026 Ing. Mario Guevara. Todos los derechos reservados.
         </div>
       </footer>
     </div>
