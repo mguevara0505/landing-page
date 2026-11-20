@@ -399,13 +399,13 @@ button:active {
   line-height: 1.5;
 }
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(260px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 3.2rem;
   margin-top: 2.5rem;
   width: 100%;
-  justify-items: center;
   justify-content: center;
+  align-items: stretch;
   max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
@@ -438,6 +438,7 @@ button:active {
   align-items: center;
   padding: 2.2rem 1.2rem 2rem 1.2rem;
   transition: box-shadow 0.2s, transform 0.2s;
+  flex: 0 0 260px;
   min-width: 260px;
   max-width: 340px;
 }
@@ -464,7 +465,7 @@ button:active {
 }
 .projects-section {
   width: 100%;
-  max-width: 900px;
+  max-width: 1400px;
   margin: 4rem auto 0 auto;
   display: flex;
   flex-direction: column;

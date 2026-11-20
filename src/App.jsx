@@ -396,6 +396,34 @@ function App() {
                 Ver repositorio
               </a>
             </div>
+            <div className="project-card">
+              <img
+                src="/images/panelPrincipal.png"
+                alt="VectorFit"
+                className="project-img"
+              />
+              <div className="project-label">VectorFit</div>
+              <div className="project-description">
+                Trabajo de grado centrado en el desarrollo de un sistema
+                integral de tele-entrenamiento con corrección biomecánica y
+                gestión dinámica.
+              </div>
+              <div className="project-tech-list">
+                <div className="project-tech">React Native</div>
+                <div className="project-tech">Tailwind CSS</div>
+                <div className="project-tech">Supabase</div>
+                <div className="project-tech">PostgreSQL</div>
+                <div className="project-tech">QuickPose AI</div>
+              </div>
+              <a
+                className="repo-btn"
+                href="https://github.com/jgobea/VectorFit"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ver repositorio
+              </a>
+            </div>
           </div>
         </div>
         {/* Sección de contacto */}
